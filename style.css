@@ -1,0 +1,26 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    background-color: blueviolet;
+    color: aqua;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: shadow-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes shadow-color{
+    from{box-shadow: 5px 5px 38px grey;}
+    to{box-shadow: 5px 5px 38px whitesmoke;}
+}
